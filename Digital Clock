@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+main()
+{
+    int h,m,s;
+    printf("enter time=");
+    scanf("%d %d %d",&h,&m,&s);
+start:
+    for(h; h<24; h++)
+    {
+        for(m; m<60; m++)
+        {
+            for(s; s<60; s++)
+            {
+                system("cls");
+
+                printf("\n \n  %d:%d:%d",h,m,s);
+                for(double i=1; i<590000000; i++)
+                {
+
+                }
+            }
+            s=0;
+        }
+        m=0;
+    }
+    h=0;
+    goto start;
+}
